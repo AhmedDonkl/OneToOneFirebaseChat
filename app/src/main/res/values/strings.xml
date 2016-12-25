@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">InstaR</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="welcome_screen_text">Welcome To InstaR</string>
+    <string name="explore_button_text">Explore</string>
+    <string name="sign_up_text">Sign up</string>
+
+    <string name="facebook_application_id" translatable="false">1475781135771774</string>
+    <string name="google_key" translatable="false">AIzaSyCyXpOL-W5P9BQQ9_a-FA9vhl40Ob5pRic</string>
+
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="error_anonymously">Unable to sign in anonymously.</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="change_image">Change Photo</string>
+    <string name="name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="anonymous_user">Anonymous User</string>
+    <string name="profile_pic_chooser_title">Choose your new Pic</string>
+    <string name="camera_permission">We will upload a picture from your Camera</string>
+    <string name="error_upload_pic">Error upload pic</string>
+    <string name="image_required">You must choose photo.</string>
+    <string name="user_name_exist">User Name Already Exist</string>
+    <string name="photo_changed_success">Photo Changed Successfully</string>
+    <string name="photo_changed_umsuccess">Problem while change photo</string>
+    <string name="error_occured">Error Occurred</string>
+    <string name="error_create_profile">Error create new profile</string>
+    <string name="profile_created">Profile Created</string>
+    <string name="error_edit_profile">Error editing</string>
+    <string name="profile_edited">Profile Edited</string>
+    <string name="caption">Add caption</string>
+    <string name="add_location">Add location</string>
+    <string name="share">SHARE</string>
+    <string name="feeds">My Feeds</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="log_out">Log out</string>
+    <string name="log_out_action">Confirm Log Out?</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="age_hint">Age</string>
+    <string name="about_me">About me</string>
+    <string name="choose_default_image">Choose your default image</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="upload_image_first">Upload image first</string>
+    <string name="inbox">Inbox</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="message">Message</string>
+    <string name="user_image">User image</string>
+    <string name="contacts">Contacts</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_conversion">ConversionActivity</string>
+    <string name="write_message">Write message here...</string>
+    <string name="failed_message">Failed to send message</string>
+    <string name="user_name_spaces">User Name can\'t have spaces</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="how_tall">How tall are you?</string>
+    <string name="gender">Gender</string>
+    <string name="race">Race</string>
+    <string name="religion">Religion</string>
+    <string name="home">Home</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="relationship_status">Relationship status</string>
+    <string name="body">Body</string>
+    <string name="occupation">Occupation</string>
+    <string name="education">Education</string>
+    <string name="salary">Salary</string>
+    <string name="smoke">Smoke?</string>
+    <string name="drink">Drink?</string>
+    <string name="kids">Kids?</string>
+    <string name="diet">Diet type</string>
+    <string name="sports">Sports</string>
+    <string name="often_exercise">Often Exercise</string>
+    <string name="pets">Pets?</string>
+    <string name="political">Political view</string>
+    <string name="languages">Languages</string>
+    <string name="choose">Choose</string>
+    <string name="choose_languges">Choose Languages</string>
+
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="race_array">
+        <item>Black</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Chines</item>
+    </string-array>
+
+    <string-array name="religion_array">
+        <item>Hindu</item>
+        <item>Islam</item>
+        <item>Christian</item>
+    </string-array>
+
+    <string-array name="feet_array">
+        <item>3 feet</item>
+        <item>4 feet</item>
+        <item>5 feet</item>
+        <item>6 feet</item>
+        <item>7 feet</item>
+        <item>8 feet</item>
+    </string-array>
+
+    <string-array name="inches_array">
+        <item>0 inches</item>
+        <item>1 inches</item>
+        <item>2 inches</item>
+        <item>3 inches</item>
+        <item>4 inches</item>
+        <item>5 inches</item>
+        <item>6 inches</item>
+        <item>7 inches</item>
+        <item>8 inches</item>
+        <item>9 inches</item>
+        <item>10 inches</item>
+        <item>11 inches</item>
+    </string-array>
+
+    <string-array name="relationship_status_array">
+        <item>Never Married</item>
+        <item>Currently Separated</item>
+        <item>Divorced</item>
+        <item> Widow / Widower</item>
+    </string-array>
+
+    <string-array name="ethnicity_array">
+        <item>No answer</item>
+        <item>Asian</item>
+        <item>Black / African descent</item>
+        <item>East Indian</item>
+        <item>Latino / Hispanic</item>
+        <item>Middle Eastern</item>
+        <item>Native American</item>
+        <item>Pacific Islander</item>
+        <item>White / Caucasian</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="bod_array">
+        <item>No answer</item>
+        <item>Slender</item>
+        <item>Big and beautiful</item>
+        <item>Curvy</item>
+        <item>About average</item>
+        <item>Athletic and toned</item>
+        <item>Full-figured</item>
+        <item>Heavyset A few extra pounds</item>
+        <item>Stocky</item>
+    </string-array>
+
+    <string-array name="education_array">
+        <item>No answer</item>
+        <item>High school</item>
+        <item>Some college</item>
+        <item>Associates degree</item>
+        <item>Bachelors degree</item>
+        <item>Graduate degree</item>
+        <item>PhD / Post Doctoral</item>
+    </string-array>
+
+    <string-array name="occupation_array">
+        <item>No answer</item>
+        <item>Administrative / Secretarial</item>
+        <item>Artistic / Creative / Performance</item>
+        <item>Executive / Management</item>
+        <item>Financial / Accounting / Real Estate</item>
+        <item>Labor / Construction</item>
+        <item>Medical / Dental / Veterinary / Fitness</item>
+        <item>Political / Govt / Civil Service / Military</item>
+        <item>Retail / Food services Retired</item>
+        <item>Sales / Marketing</item>
+        <item>Self-Employed / Entrepreneur</item>
+        <item>Education / Teacher / Professor</item>
+        <item>Technical / Science / Computers / Engineering</item>
+        <item>Travel / Hospitality / Transportation</item>
+        <item>Other profession</item>
+        <item>Nonprofit / Volunteer / Activist</item>
+        <item>Law enforcement / Security / Military</item>
+        <item>Fashion / Model / Beauty</item>
+        <item>Architecture / Interior design</item>
+    </string-array>
+
+    <string-array name="languages_array">
+        <item>Arabic</item>
+        <item>Chinese</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Norwegian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Tagalog</item>
+        <item>Urdu</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="salary_array">
+        <item>No Preference</item>
+        <item>Less Than $25,000</item>
+        <item>$25,001 to $35,000</item>
+        <item>$35,001 to $50,000</item>
+        <item>$50,001 to $75,000</item>
+        <item>$75,001 to $100,000</item>
+        <item>$100,001 to $150,000</item>
+        <item>$150,001+</item>
+    </string-array>
+
+    <string-array name="smoke_array">
+        <item>No answer</item>
+        <item>No Way</item>
+        <item>Occasionally</item>
+        <item>Daily</item>
+        <item>Cigar aficionado</item>
+        <item>Yes, but trying to quit</item>
+    </string-array>
+
+    <string-array name="drink_array">
+        <item>No answer</item>
+        <item>Never</item>
+        <item>Social Drinker</item>
+        <item>Regularly</item>
+        <item>Moderately</item>
+    </string-array>
+
+    <string-array name="kids_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="diet_array">
+        <item>Veg</item>
+        <item>Non-Veg</item>
+        <item>Occasionally Non-Veg</item>
+        <item>Eggetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="sports_array">
+        <item>No answer</item>
+        <item>Aerobics</item>
+        <item>Auto racing / Motorcross</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Billiards / Pool</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Dancing</item>
+        <item>Inline skating</item>
+        <item>Martial arts</item>
+        <item>Running</item>
+        <item>Skiing</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Tennis / Racquet sports</item>
+        <item>Walking / Hiking</item>
+        <item>Weights / Machines</item>
+        <item>Yoga</item>
+        <item>Other types of exercise</item>
+        <item>Hockey</item>
+        <item>VolleyBall</item>
+    </string-array>
+
+    <string-array name="often_sports_array">
+        <item>No answer</item>
+        <item>I dont exercise regularly</item>
+        <item>I exercise 1-2 times per week</item>
+        <item>I exercise 3-4 times per week</item>
+        <item>I exercise 5 or more times per week</item>
+    </string-array>
+
+    <string-array name="pets_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="political_array">
+        <item>No answer</item>
+        <item>Ultra Conservative</item>
+        <item>Conservative</item>
+        <item>Middle of the Road</item>
+        <item>Liberal</item>
+        <item>Very Liberal</item>
+        <item>Non-conformist</item>
+        <item>Some other viewpoint</item>
+    </string-array>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="tall">Tall</string>
+    <string name="tall_feet">Tall Feet</string>
+    <string name="tall_inches">Tall Inches</string>
+    <string name="feet">Feet</string>
+    <string name="inches">Inches</string>
+    <string name="years">Years</string>
+
+</resources>

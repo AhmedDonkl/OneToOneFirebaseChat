@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    tools:context=".Activities.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <!--  welcome text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/welcome_screen_text"
+            style="@style/WelcomeScreenHeaderTextStyle"/>
+
+        <!--  sign in button -->
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign in"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <!--  explore button -->
+        <Button
+            android:id="@+id/explore_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/explore_button_text"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    </LinearLayout>
+</FrameLayout>
